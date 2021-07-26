@@ -1,0 +1,11 @@
+<h1>{{titulo}}</h1>
+<p>Numero 1</p>
+<input type="number" [(ngModel)]="num1">
+
+<p>Numero 2</p>
+<input type="number" [(ngModel)]="num2">
+
+<button (click)="calcular('s')">Sumar</button>
+<button (click)="calcular('r')">Restar</button>
+<button (click)="calcular('m')">Multiplicar</button>
+<button (click)="calcular('d')">Dividir</button>
